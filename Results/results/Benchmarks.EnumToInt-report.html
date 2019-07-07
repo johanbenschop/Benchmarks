@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>Benchmarks.EnumToInt-20190707-035648</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet=v0.11.5, OS=Windows 10.0.17763.557 (1809/October2018Update/Redstone5), VM=Hyper-V
+Intel Xeon CPU E5-2673 v4 2.30GHz, 1 CPU, 2 logical and 2 physical cores
+.NET Core SDK=2.2.105
+  [Host]     : .NET Core 2.1.11 (CoreCLR 4.6.27617.04, CoreFX 4.6.27617.02), 64bit RyuJIT
+  DefaultJob : .NET Core 2.1.11 (CoreCLR 4.6.27617.04, CoreFX 4.6.27617.02), 64bit RyuJIT
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>Method</th><th>Mean</th><th>Error</th><th>StdDev</th>
+</tr>
+</thead><tbody><tr><td>T1</td><td>49.10 ns</td><td>0.5719 ns</td><td>0.5349 ns</td>
+</tr><tr><td>T2</td><td>15.16 ns</td><td>0.1938 ns</td><td>0.1813 ns</td>
+</tr><tr><td>T3</td><td>357.73 ns</td><td>7.1485 ns</td><td>6.6867 ns</td>
+</tr><tr><td>T4</td><td>173.26 ns</td><td>3.3338 ns</td><td>3.4236 ns</td>
+</tr></tbody></table>
+</body>
+</html>
