@@ -8,9 +8,9 @@ Intel Xeon CPU E5-2673 v4 2.30GHz, 1 CPU, 2 logical and 2 physical cores
 
 
 ```
-| Method |      Mean |     Error |    StdDev |
-|------- |----------:|----------:|----------:|
-|     T1 |  49.10 ns | 0.5719 ns | 0.5349 ns |
-|     T2 |  15.16 ns | 0.1938 ns | 0.1813 ns |
-|     T3 | 357.73 ns | 7.1485 ns | 6.6867 ns |
-|     T4 | 173.26 ns | 3.3338 ns | 3.4236 ns |
+|            Method |      Mean |     Error |    StdDev |
+|------------------ |----------:|----------:|----------:|
+| FirstCharToUpper1 |  75.79 ns | 1.5701 ns | 2.0416 ns |
+| FirstCharToUpper2 | 128.63 ns | 2.5431 ns | 2.6115 ns |
+| FirstCharToUpper3 |  70.66 ns | 1.3301 ns | 1.2442 ns |
+| FirstCharToUpper4 |  48.13 ns | 0.8303 ns | 0.7767 ns |
